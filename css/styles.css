@@ -107,7 +107,7 @@ body.dark-theme {
   padding-inline: 5rem 1rem;
 }
 
-.section-title {
+.section__title {
   font-family: var(--title-font);
   font-size: var(--font-xl);
   font-weight: bold;
@@ -120,7 +120,7 @@ body.dark-theme {
   text-shadow: 6px 6px 0px #9f7060;
 }
 
-.section-subtitle {
+.section__subtitle {
   display: block;
   font-family: var(--subtitle-font);
   font-size: var(--font-lg);
@@ -130,8 +130,8 @@ body.dark-theme {
 
 }
 
-.section-title,
-.section-subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
