@@ -129,7 +129,20 @@ body.dark-theme {
   padding-inline: 5rem 1rem;
 }
 
-.section__title {
+@media screen and (max-width: 340px) {
+  .section {
+    padding-block: 4rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding-block: 7rem 1.5rem;
+  }
+}
+.section__title, 
+.home__title 
+{
   font-family: var(--title-font);
   font-size: var(--font-xl);
   font-weight: bold;
@@ -142,6 +155,12 @@ body.dark-theme {
   text-shadow: 6px 6px 0px #9f7060;
 }
 
+@media screen and (max-width: 340px) {
+  .home__title,
+  .section__title {
+    font-size: 2rem;
+  }
+}
 .section__subtitle {
   display: block;
   font-family: var(--subtitle-font);
@@ -299,11 +318,94 @@ body.dark-theme {
 /* Active link */
 
 /*~~~~~~~~~~~~~~~ HOME ~~~~~~~~~~~~~~~*/
+.home {
+  position: relative;
+}
+
+.home__container {
+  row-gap: 3rem;
+  justify-self: center;
+}
+/* Common @media */
+@media screen and (min-width: 576px) {
+  .home__container {
+    grid-template-columns: 0.7fr;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home__container {
+    position: relative;
+    grid-template-columns: 480px 500px;
+  }
+}
+.home__img {
+  width: 300px;
+  justify-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .home__img {
+    width: 600px;
+    position: absolute;
+    top: 2rem;
+    right: -2rem;
+  }
+}
+.home__data {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .home__data {
+    text-align: initial;
+    order: -1;
+  }
+}
+
+.home__title {
+   font-size: var(--font-2xl);
+   margin-bottom: 1rem;
+}
+
+.home__description {
+  padding: 0 1rem;
+  margin-bottom: 2.5rem;
+}
 
 /*  Common @media */
-
+@media screen and (min-width: 576px) {
+  .home__container {
+    grid-template-columns: 0.7fr;
+    justify-content: center;
+  }
+}
 /*~~~~~~~~~~~~~~~ BUTTON ~~~~~~~~~~~~~~~*/
+.button {
+  background-color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: #fff;
+  font-weight: var(--font-medium);
+  transition: background 0.3s;
+}
 
+.button i {
+  font-size: 1.25rem;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  background-color: var(--primary-color-alt);
+}
+
+.button i:hover {
+  transform: translateX(0.25rem);
+}
 /*~~~~~~~~~~~~~~~ ABOUT ~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~ POPULAR ~~~~~~~~~~~~~~~*/
