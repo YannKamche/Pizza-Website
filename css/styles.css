@@ -458,7 +458,69 @@ body.dark-theme {
   }
 }
 /*~~~~~~~~~~~~~~~ POPULAR ~~~~~~~~~~~~~~~*/
+.popular__container {
+  padding-top: 4rem;
+}
 
+.popular__card {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 2rem 1rem;
+  box-shadow: 0 8px 20px hsla(19, 64%, 48%, 0.08);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.4s;
+
+}
+
+.popular__content {
+  text-align: right;
+}
+
+.popular__img {
+  width: 150px;
+  align-self: flex-start;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  transition: transform 0.4s;
+
+}
+
+.popular__name {
+  font-size: var(--font-lg);
+  font-weight: var(--font-semi-bold);
+  margin-block: 3rem 0.25rem;
+}
+
+.popular__description {
+  font-size: var(--font-xm);
+  margin-block: 0 0.25rem;
+} 
+
+.popular__price {
+  font-size: var(--font-md);
+  font-weight: var(--font-medium);
+  color: var(--primary-color);
+}
+
+.popular__button {
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 20px hsla(19, 64%, 20%, 0.2);
+  transition: background 0.3s;
+}
+
+.popular__card:hover .popular__button {
+  background-color: var(--primary-color-alt);
+}
+
+.popular__card:hover .popular__img {
+  transform: translateY(-0.75rem);
+}
 /*~~~~~~~~~~~~~~~ RECENTLY ~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~ NEWSLETTER ~~~~~~~~~~~~~~~*/
