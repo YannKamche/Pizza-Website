@@ -171,10 +171,24 @@ body.dark-theme {
 
 }
 
+@media screen and (min-width: 1024px) {
+  .section__subtitle {
+    margin-bottom: 0.75rem;
+  }
+}
+
 .section__title,
 .section__subtitle {
   text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+  .section__title,
+  .section__subtitle {
+  text-align: initial;
+  }
+}
+
 
 .main {
   overflow: hidden;
@@ -328,7 +342,8 @@ body.dark-theme {
 }
 /* Common @media */
 @media screen and (min-width: 576px) {
-  .home__container {
+  .home__container,
+  .about__container {
     grid-template-columns: 0.7fr;
     justify-content: center;
   }
@@ -407,7 +422,41 @@ body.dark-theme {
   transform: translateX(0.25rem);
 }
 /*~~~~~~~~~~~~~~~ ABOUT ~~~~~~~~~~~~~~~*/
+.about {
+  position: relative;
+}
 
+.about__container {
+  row-gap: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__container {
+    grid-template-columns: 450px 360px;
+    align-items: center;
+    column-gap: 7rem;
+  } 
+}
+.about__data {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__data {
+    order: 1;
+    text-align: initial;
+  }
+}
+.about__img {
+  width: 250px;
+  justify-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .about__img{
+    width: 400px;
+  }
+}
 /*~~~~~~~~~~~~~~~ POPULAR ~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~ RECENTLY ~~~~~~~~~~~~~~~*/
