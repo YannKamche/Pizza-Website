@@ -344,7 +344,8 @@ body.dark-theme {
 @media screen and (min-width: 576px) {
   .home__container,
   .about__container,
-  .recently__container{
+  .recently__container,
+  .newsletter__container{
     grid-template-columns: 0.7fr;
     justify-content: center;
   }
@@ -572,6 +573,116 @@ body.dark-theme {
 
 
 /*~~~~~~~~~~~~~~~ NEWSLETTER ~~~~~~~~~~~~~~~*/
+.newsletter__container {
+  position: relative;
+  background-color: hsl(19, 24%, 15%);
+  border-radius: 2.5rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .newsletter__container {
+    grid-template-columns: 350px 360px;
+    align-items: center;
+    column-gap: 6rem;
+    padding-bottom: 2.5rem 0;
+    border-radius: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter__img {
+    width: 250px;
+    position: absolute;
+    top: -4rem;
+    left: -6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .newsletter__img {
+    position: initial;
+    width: 350px;
+  }
+}
+.newsletter__img {
+  width: 150px;
+  position: absolute;
+  top: -2rem;
+  left: -4rem;
+}
+
+.newsletter__data .section__title {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .newsletter__data .section__title {
+    margin-bottom: 2.5rem;
+  }
+
+}
+
+.newsletter__form {
+  background-color: #fff;
+  padding: 5px 5px 5px 16px;
+  border-radius: 4rem;
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+@media screen and (max-width: 340px) {
+  .newsletter__form{
+    flex-direction: column;
+    background: none;
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .newsletter__form {
+    padding: 8px 8px 8px 24px;
+  }
+}
+
+.newsletter__input,
+.newsletter__button {
+  font-family: var(--body-font);
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .newsletter__button {
+    font-size: var(--font-sm);
+  }
+}
+
+.newsletter__input {
+  width: 90%;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 340px) {
+  .newsletter__input{
+    width: initial;
+    padding: 1rem;
+    border-radius: 4rem;
+  }
+}
+
+.newsletter__button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 340px) {
+  .newsletter__button{
+    justify-content: center;
+  }
+}
 
 /*~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
 
