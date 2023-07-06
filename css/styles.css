@@ -238,7 +238,8 @@ body.dark-theme {
 }
 }
 
-.nav__logo {
+.nav__logo,
+.footer__logo {
   color: var(--primary-color);
   font-family: var(--title-font);
   font-size: var(--font-md);
@@ -248,7 +249,8 @@ body.dark-theme {
   column-gap: 0.5rem;
   transition: color 0.3s;
 }
-.nav__logo img {
+.nav__logo img,
+.footer__logo img {
   width: 25px;
 }
 
@@ -685,7 +687,39 @@ body.dark-theme {
 }
 
 /*~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
+.footer {
+  padding-block: 3rem 2rem;
+}
 
+.footer__container {
+  row-gap: 3rem;
+}
+
+.footer__logo {
+  margin-bottom: 1rem;
+}
+
+.footer__description,
+.footer__link,
+.footer__information{
+  font-size: var(--font-xm);
+}
+
+.footer__content,
+.footer__links {
+  display: grid;
+}
+
+.footer__content {
+  grid-template-columns: repeat(2, max-content);
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer__title {
+  font-size: var(--font-md);
+  margin-bottom: 1.5rem;
+}
 /*~~~~~~~~~~~~~~~ SCROLL UP ~~~~~~~~~~~~~~~*/
 
 /* Show Scroll Up */
