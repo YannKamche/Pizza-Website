@@ -8,152 +8,161 @@
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
         <!--~~~~~~~~~~~~~~~ font awesome ~~~~~~~~~~~~~~~-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
         <!--~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~-->
         <link rel="stylesheet" href="./css/styles.css">
-        <title>Responsive PizzaHut Website </title>
+        <title>Responsive PizzaHut Website - LightCode</title>
     </head>
     <body>
         <!--~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~-->
         <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <img src="./img/logo.png" alt="logo image">
-                Pizza Hut
-            </a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
-                    <li class="nav__item"><a href="#popular" class="nav__link">Popular</a></li>
-                    <li class="nav__item"><a href="#recently" class="nav__link">Recently</a></li>
-                </ul>
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="img/logo.png" alt="logo image">
+                    PizzaHut
+                </a>
 
-                <div class="nav__close" id="nav-close">
-                    <i class="fa-solid fa-xmark"></i>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About us</a></li>
+                        <li class="nav__item"><a href="#popular" class="nav__link">Popular</a></li>
+                        <li class="nav__item"><a href="#recently" class="nav__link">Recently</a></li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+
+                    <img src="img/pizza-slice.png" alt="nav image" class="nav__img-1">
                 </div>
 
-                <img src="img/pizza-slice.png" alt="nav image" class="nav__img-1">
-            </div>
+                <div class="nav__buttons">
+                    <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
 
-            
-
-            <div class="nav__buttons">
-                <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="fa-solid fa-bars"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </header>
 
         <!--~~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~~-->
         <main class="main">
             <!--~~~~~~~~~~~~~~~ HOME ~~~~~~~~~~~~~~~-->
             <section class="home section" id="home">
-            <div class="home__container container grid">
-                <img src="./img/home-pizza.png" alt="home__img" class="home__img">
+                <div class="home__container container grid">
+                    <img src="img/home-pizza.png" alt="home image" class="home__img">
 
-                <div class="home__data">
-                    <h1 class="home__title">
-                        The <br>
-                        Ultimate <br>
-                        Pizza
-                    </h1>
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            The <br>
+                            Ultimate <br>
+                            Pizza
+                        </h1>
 
-                    <p class="home__description">
-                        Enjoy mouth-watering, handcrafted pizzas made with locally-sourced ingredients
-                        from pizza hut. With easy online ordering and 
-                        fas delivery options.
-                    </p>
+                        <p class="home__description">
+                            Enjoy mouth-watering, handcrafted pizzas made with 
+                            locally-sourced ingredients from pizza hut. With easy 
+                            online ordering and fast delivery options.
+                        </p>
 
-                    <a href="#" class="button">
-                        Order Now <i class="fa-solid fa-arrow-right"></i>
-                    </a>
+                        <a href="#" class="button">
+                            Order Now <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
             </section>
 
             <!--~~~~~~~~~~~~~~~ ABOUT ~~~~~~~~~~~~~~~-->
             <section class="about section" id="about">
-            <div class="about__container container grid">
-                <span class="section__subtitle">About Us</span>
-                <h2 class="section__title">
-                    We Offer <br>
-                    Healthy Food
-                </h2>
-                <p class="about__description">
-                    We are dedicated to crafting mouth-watering pizzas that
-                    are made with only the freshest and highest quality locally-sourced
-                    ingredients. We believe that using fresh ingredients not onlyenhances the taste 
-                    of our pizzas.
-                    <br>
-                    <br>
-                    So come on in and tast the difference for yourself - we 
-                    can't wait to serve you!
-                </p>
-                <div class="about__data">
-                    <img src="./img/about-pizza.png" alt="about image" class="about__img">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <span class="section__subtitle">About Us</span>
+
+                        <h2 class="section__title">
+                            We Offer <br>
+                            Healthy Food
+                        </h2>
+
+                        <p class="about__description">
+                            we are dedicated to crafting mouth-watering pizzas that 
+                            are made with only the freshest and highest quality
+                            locally-sourced ingredients. We believe that using fresh 
+                            ingredients not only enhances the taste of our pizzas. 
+                            <br>
+                            <br>
+                            So come on in and taste the difference for yourself – we 
+                            can't wait to serve you!
+                        </p>
+                    </div>
+
+                    <img src="img/about-pizza.png" alt="about image" class="about__img">
                 </div>
-            </div>
             </section>
 
             <!--~~~~~~~~~~~~~~~ POPULAR ~~~~~~~~~~~~~~~-->
             <section class="popular section" id="popular">
-            <span class="section__subtitle">The Best Food</span>
-            <h2 class="section__title">Popular Pizza</h2>
+                <span class="section__subtitle">The Best Food</span>
+                <h2 class="section__title">Popular Pizza</h2>
 
-            <div class="popular__container container grd">
-                <div class="popular__card">
-                    <img src="./img/popular-pizza-1.png" alt="popular image" class="popular__img">
+                <div class="popular__container container grid">
+                    <div class="popular__card">
+                        <img src="img/popular-pizza-1.png" alt="popular image" class="popular__img">
+                        
+                        <div class="popular__content">
+                            <a href="" class="popular__button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
 
-                    <div class="popular__content">
-                        <a href="" class="popular__button">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                        </a>
-                        <h3 class="popular__name">Margherita</h3>
-                        <p class="popular__description">
-                            A classic pizza with tomato sauce,
-                            French mozzarella, and basil.
-                        </p>
-                        <p class="popular__price">$12.99</p>
+                            <h3 class="popular__name">Margherita</h3>
+
+                            <p class="popular__description">
+                                A classic pizza with tomato sauce, 
+                                fresh mozzarella, and basil.
+                            </p>
+
+                            <p class="popular__price">$12.99</p>
+                        </div>
+                    </div>
+
+                    <div class="popular__card">
+                        <img src="img/popular-pizza-2.png" alt="popular image" class="popular__img">
+                        
+                        <div class="popular__content">
+                            <a href="" class="popular__button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+
+                            <h3 class="popular__name">Pepperoni</h3>
+
+                            <p class="popular__description">
+                                A traditional pizza topped with tomato sauce, mozzarella cheese.
+                            </p>
+                            
+                            <p class="popular__price">$14.99</p>
+                        </div>
+                    </div>
+
+                    <div class="popular__card">
+                        <img src="img/popular-pizza-3.png" alt="popular image" class="popular__img">
+                        
+                        <div class="popular__content">
+                            <a href="" class="popular__button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+
+                            <h3 class="popular__name">Meat Lovers</h3>
+
+                            <p class="popular__description">
+                                A hearty pizza topped with tomato sauce, mozzarella cheese, pepperoni.
+                            </p>
+                            
+                            <p class="popular__price">$17.99</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="popular__card">
-                    <img src="./img/popular-pizza-2.png" alt="popular image" class="popular__img">
-
-                    <div class="popular__content">
-                        <a href="" class="popular__button">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                        </a>
-                        <h3 class="popular__name">Pepperoni</h3>
-                        <p class="popular__description">
-                            A traditional Pizza topped with tomato 
-                            sauce, mozzarella cheese.
-                        </p>
-                        <p class="popular__price">$14.99</p>
-                    </div>
-                </div>
-
-                <div class="popular__card">
-                    <img src="./img/popular-pizza-3.png" alt="popular image" class="popular__img">
-
-                    <div class="popular__content">
-                        <a href="" class="popular__button">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                        </a>
-                        <h3 class="popular__name">Meat Lovers</h3>
-                        <p class="popular__description">
-                            A hearty pizza topped with tomato sauce,
-                            mozzarella cheese, Pepperoni
-                        </p>
-                        <p class="popular__price">$17.99</p>
-                    </div>
-                </div>
-            </div>
             </section>
 
             <!--~~~~~~~~~~~~~~~ RECENTLY ~~~~~~~~~~~~~~~-->
@@ -161,42 +170,40 @@
                 <div class="recently__container container grid">
                     <div class="recently__data">
                         <span class="section__subtitle">Recently Added</span>
-                       
+
                         <h2 class="section__title">
-                            Buffalo <br>
+                            Buffalo <br> 
                             Chicken <br>
-                            Pizza
+                            pizza
                         </h2>
-                       
+
                         <p class="recently__description">
-                            Check out what's new and don't miss out on the opportunity to 
-                            treat yourself to a delicious meal. Indulge in the 
-                            experience and savor every bit.
-        
+                            Check out what's new and don't miss out 
+                            on the opportunity to treat yourself 
+                            to a delicious meal. Indulge in the 
+                            experience and savor every bite.
                         </p>
-                       
+
                         <a href="" class="button">
                             Order Now <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
-                    <img src="./img/recently-pizza.jpg" alt="recently image" class="recently__img">
+                    <img src="img/recently-pizza.jpg" alt="recently image" class="recently__img">
                 </div>
-
             </section>
 
             <!--~~~~~~~~~~~~~~~ NEWSLETTER ~~~~~~~~~~~~~~~-->
             <section class="newsletter section">
                 <div class="newsletter__container container grid">
-                    <img src="./img/pizza-slice.png" alt="newsletter image" class="newsletter__img">
-
+                    <img src="img/pizza-slice.png" alt="newsletter image" class="newsletter__img">
+                    
                     <div class="newsletter__data">
                         <span class="section__subtitle">Newsletter</span>
-                        
                         <h2 class="section__title">
                             Subscribe for <br>
                             exclusive offers
                         </h2>
-                        
+
                         <form action="" class="newsletter__form">
                             <input type="email" placeholder="Enter email" class="newsletter__input">
 
@@ -213,33 +220,33 @@
         <footer class="footer">
             <div class="footer__container container grid">
                 <div>
-                    <a class="footer__logo">
-                        <img src="./img/logo.png" alt="logo image">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo.png" alt="logo image">
                         PizzaHut
                     </a>
 
                     <p class="footer__description">
                         Food for the body is not <br>
                         enough. There must be food <br>
-                        for the soul
+                        for the soul.
                     </p>
                 </div>
-
 
                 <div class="footer__content">
                     <div>
                         <h3 class="footer__title">Main Menu</h3>
+
                         <ul class="footer__links">
                             <li><a href="" class="footer__link">About</a></li>
-                            <li><a href="" class="footer__link">Menu</a></li>
+                            <li><a href="" class="footer__link">Menus</a></li>
                             <li><a href="" class="footer__link">Offer</a></li>
                             <li><a href="" class="footer__link">Events</a></li>
-                            
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="footer__title">Information</h3>
+                        
                         <ul class="footer__links">
                             <li><a href="" class="footer__link">Contact</a></li>
                             <li><a href="" class="footer__link">Order & Returns</a></li>
@@ -250,42 +257,47 @@
 
                     <div>
                         <h3 class="footer__title">Address</h3>
+                        
                         <ul class="footer__links">
                             <li class="footer__information">
                                 Address <br>
-                                here
-                            </li>
-                            <li class="footer__information">9AM - 11AM</li>
+                                here</li>
+                            <li class="footer__information">9AM - 11PM</li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="footer__title">Social Media</h3>
+
                         <ul class="footer__links footer__social">
-                            <a href="https://www.facebook.com" class="footer__social-link" target="_blank">
+                            <a href="https://www.facebook.com/" class="footer__social-link" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
-                            <a href="https:/www.instagram.com" class="footer__social-link" target="_blank">
+                            <a href="https://www.instagram.com/" class="footer__social-link" target="_blank">
                                 <i class="fa-brands fa-square-instagram"></i>
                             </a>
-                            <a href="https://www.twitter.com" class="footer__social-link" target="_blank">
+                            <a href="https://twitter.com/" class="footer__social-link" target="_blank">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
                         </ul>
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer__copy container">
-                &copy; Copyright.. All rights reserved
+                &copy; Copyright lightcode. All rights reserved
             </div>
         </footer>
 
         <!-- SCROLL UP -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
 
         <!--~~~~~~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~~~~~~-->
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
         <!--~~~~~~~~~~~~~~~ MAIN JS ~~~~~~~~~~~~~~~-->
-        <script src="./js/main.js"></script> 
+        <script src="./js/main.js"></script>
     </body>
 </html>
