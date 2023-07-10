@@ -10,9 +10,12 @@ A Light &amp; Dark theme, fully built & deployed, responsive Pizza website built
 
 ![Screenshot (443)](https://github.com/YannKamche/Pizza-Website/assets/122357201/f85ccf3a-5725-4ffb-93d2-219efea39c10)
 
-### Dark Theme
 ![Screenshot (444)](https://github.com/YannKamche/Pizza-Website/assets/122357201/f403efce-95b6-4db2-830c-d6b4aa8f427f)
+
 ![Screenshot (445)](https://github.com/YannKamche/Pizza-Website/assets/122357201/6bee5bff-864d-42d3-937e-65de6c727c8f)
+### Dark Theme
 ![Screenshot (446)](https://github.com/YannKamche/Pizza-Website/assets/122357201/0409fb45-1586-4ff5-82cf-39d232bd8195)
+
 ![Screenshot (447)](https://github.com/YannKamche/Pizza-Website/assets/122357201/64f0c4fe-e75d-4e34-bee1-c3d6b0bd6c25)
+
 <img width="863" alt="Screenshot 2023-07-09 171604" src="https://github.com/YannKamche/Pizza-Website/assets/122357201/a71225bf-4cec-4e38-b38a-ebaaaf45fa96">
