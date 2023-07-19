@@ -33,6 +33,7 @@ const scrollHeader = () => {
 }
 window.addEventListener("scroll", scrollHeader);
 
+/*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
 const activeLink = () => {
     const section = document.querySelectorAll('section');
     const navLink = document.querySelectorAll(".nav__link");
@@ -57,7 +58,6 @@ const activeLink = () => {
 }
 
 window.addEventListener("scroll", activeLink);
-/*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
 const scrollUp = () => {
